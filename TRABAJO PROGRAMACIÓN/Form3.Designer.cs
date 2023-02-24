@@ -67,6 +67,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnConfirmarRegistro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +76,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.button1.BackColor = System.Drawing.Color.PowderBlue;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(748, 773);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(429, 57);
             this.button1.TabIndex = 0;
@@ -87,7 +88,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblPrimerNombre.AutoSize = true;
             this.lblPrimerNombre.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrimerNombre.Location = new System.Drawing.Point(82, 24);
+            this.lblPrimerNombre.Location = new System.Drawing.Point(83, 25);
             this.lblPrimerNombre.Name = "lblPrimerNombre";
             this.lblPrimerNombre.Size = new System.Drawing.Size(132, 19);
             this.lblPrimerNombre.TabIndex = 1;
@@ -97,9 +98,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtPrimerNombre.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrimerNombre.Location = new System.Drawing.Point(273, 21);
+            this.txtPrimerNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrimerNombre.Name = "txtPrimerNombre";
             this.txtPrimerNombre.ShortcutsEnabled = false;
-            this.txtPrimerNombre.Size = new System.Drawing.Size(606, 26);
+            this.txtPrimerNombre.Size = new System.Drawing.Size(607, 26);
             this.txtPrimerNombre.TabIndex = 2;
             this.txtPrimerNombre.TextChanged += new System.EventHandler(this.txtPrimerNombre_TextChanged);
             this.txtPrimerNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrimerNombre_KeyPress);
@@ -108,7 +110,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblSegundoNombre.AutoSize = true;
             this.lblSegundoNombre.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSegundoNombre.Location = new System.Drawing.Point(82, 66);
+            this.lblSegundoNombre.Location = new System.Drawing.Point(83, 66);
             this.lblSegundoNombre.Name = "lblSegundoNombre";
             this.lblSegundoNombre.Size = new System.Drawing.Size(154, 19);
             this.lblSegundoNombre.TabIndex = 3;
@@ -119,9 +121,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtSegundoNombre.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSegundoNombre.Location = new System.Drawing.Point(273, 66);
+            this.txtSegundoNombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSegundoNombre.Name = "txtSegundoNombre";
             this.txtSegundoNombre.ShortcutsEnabled = false;
-            this.txtSegundoNombre.Size = new System.Drawing.Size(606, 26);
+            this.txtSegundoNombre.Size = new System.Drawing.Size(607, 26);
             this.txtSegundoNombre.TabIndex = 4;
             this.txtSegundoNombre.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.txtSegundoNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSegundoNombre_KeyPress);
@@ -130,7 +133,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblPrimerApellido.AutoSize = true;
             this.lblPrimerApellido.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrimerApellido.Location = new System.Drawing.Point(82, 122);
+            this.lblPrimerApellido.Location = new System.Drawing.Point(83, 122);
             this.lblPrimerApellido.Name = "lblPrimerApellido";
             this.lblPrimerApellido.Size = new System.Drawing.Size(134, 19);
             this.lblPrimerApellido.TabIndex = 5;
@@ -140,9 +143,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtPrimerApellido.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrimerApellido.Location = new System.Drawing.Point(273, 119);
+            this.txtPrimerApellido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
             this.txtPrimerApellido.ShortcutsEnabled = false;
-            this.txtPrimerApellido.Size = new System.Drawing.Size(606, 26);
+            this.txtPrimerApellido.Size = new System.Drawing.Size(607, 26);
             this.txtPrimerApellido.TabIndex = 6;
             this.txtPrimerApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrimerApellido_KeyPress);
             // 
@@ -150,7 +154,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblSegundoApellido.AutoSize = true;
             this.lblSegundoApellido.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSegundoApellido.Location = new System.Drawing.Point(82, 177);
+            this.lblSegundoApellido.Location = new System.Drawing.Point(83, 177);
             this.lblSegundoApellido.Name = "lblSegundoApellido";
             this.lblSegundoApellido.Size = new System.Drawing.Size(156, 19);
             this.lblSegundoApellido.TabIndex = 7;
@@ -160,9 +164,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtSegundoApellido.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSegundoApellido.Location = new System.Drawing.Point(273, 177);
+            this.txtSegundoApellido.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSegundoApellido.Name = "txtSegundoApellido";
             this.txtSegundoApellido.ShortcutsEnabled = false;
-            this.txtSegundoApellido.Size = new System.Drawing.Size(606, 26);
+            this.txtSegundoApellido.Size = new System.Drawing.Size(607, 26);
             this.txtSegundoApellido.TabIndex = 8;
             this.txtSegundoApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSegundoApellido_KeyPress);
             // 
@@ -170,7 +175,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblTipoIdentificacion.AutoSize = true;
             this.lblTipoIdentificacion.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoIdentificacion.Location = new System.Drawing.Point(82, 233);
+            this.lblTipoIdentificacion.Location = new System.Drawing.Point(83, 233);
             this.lblTipoIdentificacion.Name = "lblTipoIdentificacion";
             this.lblTipoIdentificacion.Size = new System.Drawing.Size(159, 19);
             this.lblTipoIdentificacion.TabIndex = 9;
@@ -181,8 +186,9 @@ namespace TRABAJO_PROGRAMACIÓN
             this.cboTipoDocumento.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboTipoDocumento.FormattingEnabled = true;
             this.cboTipoDocumento.Location = new System.Drawing.Point(273, 230);
+            this.cboTipoDocumento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboTipoDocumento.Name = "cboTipoDocumento";
-            this.cboTipoDocumento.Size = new System.Drawing.Size(606, 28);
+            this.cboTipoDocumento.Size = new System.Drawing.Size(607, 28);
             this.cboTipoDocumento.TabIndex = 10;
             this.cboTipoDocumento.SelectedIndexChanged += new System.EventHandler(this.cboTipoDocumento_SelectedIndexChanged);
             // 
@@ -190,7 +196,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblNumeroIdentificacion.AutoSize = true;
             this.lblNumeroIdentificacion.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumeroIdentificacion.Location = new System.Drawing.Point(82, 282);
+            this.lblNumeroIdentificacion.Location = new System.Drawing.Point(83, 282);
             this.lblNumeroIdentificacion.Name = "lblNumeroIdentificacion";
             this.lblNumeroIdentificacion.Size = new System.Drawing.Size(219, 19);
             this.lblNumeroIdentificacion.TabIndex = 11;
@@ -200,9 +206,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtNumeroIdentificacion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumeroIdentificacion.Location = new System.Drawing.Point(337, 279);
+            this.txtNumeroIdentificacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNumeroIdentificacion.Name = "txtNumeroIdentificacion";
             this.txtNumeroIdentificacion.ShortcutsEnabled = false;
-            this.txtNumeroIdentificacion.Size = new System.Drawing.Size(542, 26);
+            this.txtNumeroIdentificacion.Size = new System.Drawing.Size(543, 26);
             this.txtNumeroIdentificacion.TabIndex = 12;
             this.txtNumeroIdentificacion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroIdentificacion_KeyPress);
             // 
@@ -210,7 +217,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblGenero.AutoSize = true;
             this.lblGenero.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGenero.Location = new System.Drawing.Point(82, 328);
+            this.lblGenero.Location = new System.Drawing.Point(83, 327);
             this.lblGenero.Name = "lblGenero";
             this.lblGenero.Size = new System.Drawing.Size(71, 19);
             this.lblGenero.TabIndex = 13;
@@ -220,7 +227,8 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.rdbFemenino.AutoSize = true;
             this.rdbFemenino.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbFemenino.Location = new System.Drawing.Point(198, 329);
+            this.rdbFemenino.Location = new System.Drawing.Point(197, 329);
+            this.rdbFemenino.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdbFemenino.Name = "rdbFemenino";
             this.rdbFemenino.Size = new System.Drawing.Size(101, 24);
             this.rdbFemenino.TabIndex = 14;
@@ -233,6 +241,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.rdbMasculino.AutoSize = true;
             this.rdbMasculino.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbMasculino.Location = new System.Drawing.Point(337, 329);
+            this.rdbMasculino.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdbMasculino.Name = "rdbMasculino";
             this.rdbMasculino.Size = new System.Drawing.Size(105, 24);
             this.rdbMasculino.TabIndex = 15;
@@ -244,7 +253,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblFechaDeNacimiento.AutoSize = true;
             this.lblFechaDeNacimiento.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaDeNacimiento.Location = new System.Drawing.Point(82, 380);
+            this.lblFechaDeNacimiento.Location = new System.Drawing.Point(83, 380);
             this.lblFechaDeNacimiento.Name = "lblFechaDeNacimiento";
             this.lblFechaDeNacimiento.Size = new System.Drawing.Size(187, 19);
             this.lblFechaDeNacimiento.TabIndex = 16;
@@ -254,16 +263,18 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.dtpFechaDeNacimiento.CalendarFont = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFechaDeNacimiento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaDeNacimiento.Location = new System.Drawing.Point(286, 380);
+            this.dtpFechaDeNacimiento.Location = new System.Drawing.Point(285, 380);
+            this.dtpFechaDeNacimiento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtpFechaDeNacimiento.Name = "dtpFechaDeNacimiento";
             this.dtpFechaDeNacimiento.Size = new System.Drawing.Size(200, 22);
             this.dtpFechaDeNacimiento.TabIndex = 17;
+            this.dtpFechaDeNacimiento.ValueChanged += new System.EventHandler(this.dtpFechaDeNacimiento_ValueChanged);
             // 
             // lblDireccionDeResidencia
             // 
             this.lblDireccionDeResidencia.AutoSize = true;
             this.lblDireccionDeResidencia.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDireccionDeResidencia.Location = new System.Drawing.Point(82, 430);
+            this.lblDireccionDeResidencia.Location = new System.Drawing.Point(83, 430);
             this.lblDireccionDeResidencia.Name = "lblDireccionDeResidencia";
             this.lblDireccionDeResidencia.Size = new System.Drawing.Size(211, 19);
             this.lblDireccionDeResidencia.TabIndex = 18;
@@ -273,6 +284,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtDireccionDeResidencia.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccionDeResidencia.Location = new System.Drawing.Point(337, 427);
+            this.txtDireccionDeResidencia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDireccionDeResidencia.Name = "txtDireccionDeResidencia";
             this.txtDireccionDeResidencia.ShortcutsEnabled = false;
             this.txtDireccionDeResidencia.Size = new System.Drawing.Size(547, 26);
@@ -282,7 +294,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.lblTelefonoContacto.AutoSize = true;
             this.lblTelefonoContacto.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTelefonoContacto.Location = new System.Drawing.Point(82, 479);
+            this.lblTelefonoContacto.Location = new System.Drawing.Point(83, 479);
             this.lblTelefonoContacto.Name = "lblTelefonoContacto";
             this.lblTelefonoContacto.Size = new System.Drawing.Size(159, 19);
             this.lblTelefonoContacto.TabIndex = 20;
@@ -292,9 +304,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtTelefonoContacto.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefonoContacto.Location = new System.Drawing.Point(273, 479);
+            this.txtTelefonoContacto.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTelefonoContacto.Name = "txtTelefonoContacto";
             this.txtTelefonoContacto.ShortcutsEnabled = false;
-            this.txtTelefonoContacto.Size = new System.Drawing.Size(606, 26);
+            this.txtTelefonoContacto.Size = new System.Drawing.Size(607, 26);
             this.txtTelefonoContacto.TabIndex = 21;
             this.txtTelefonoContacto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textTelefonoContacto_KeyPress);
             // 
@@ -312,8 +325,9 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.cboNivelEscolaridad.FormattingEnabled = true;
             this.cboNivelEscolaridad.Location = new System.Drawing.Point(273, 529);
+            this.cboNivelEscolaridad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboNivelEscolaridad.Name = "cboNivelEscolaridad";
-            this.cboNivelEscolaridad.Size = new System.Drawing.Size(606, 24);
+            this.cboNivelEscolaridad.Size = new System.Drawing.Size(607, 24);
             this.cboNivelEscolaridad.TabIndex = 23;
             // 
             // lblEPS
@@ -330,9 +344,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.txtEPS.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEPS.Location = new System.Drawing.Point(273, 576);
+            this.txtEPS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEPS.Name = "txtEPS";
             this.txtEPS.ShortcutsEnabled = false;
-            this.txtEPS.Size = new System.Drawing.Size(606, 26);
+            this.txtEPS.Size = new System.Drawing.Size(607, 26);
             this.txtEPS.TabIndex = 25;
             this.txtEPS.TextChanged += new System.EventHandler(this.textEPS_TextChanged);
             this.txtEPS.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textEPS_KeyPress);
@@ -351,7 +366,8 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.rdbContributivo.AutoSize = true;
             this.rdbContributivo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbContributivo.Location = new System.Drawing.Point(198, 619);
+            this.rdbContributivo.Location = new System.Drawing.Point(197, 619);
+            this.rdbContributivo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdbContributivo.Name = "rdbContributivo";
             this.rdbContributivo.Size = new System.Drawing.Size(121, 24);
             this.rdbContributivo.TabIndex = 27;
@@ -364,6 +380,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.rdbSubsidiado.AutoSize = true;
             this.rdbSubsidiado.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdbSubsidiado.Location = new System.Drawing.Point(337, 619);
+            this.rdbSubsidiado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdbSubsidiado.Name = "rdbSubsidiado";
             this.rdbSubsidiado.Size = new System.Drawing.Size(108, 24);
             this.rdbSubsidiado.TabIndex = 28;
@@ -384,17 +401,18 @@ namespace TRABAJO_PROGRAMACIÓN
             // txtCorreoElectronico
             // 
             this.txtCorreoElectronico.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreoElectronico.Location = new System.Drawing.Point(273, 659);
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(273, 658);
+            this.txtCorreoElectronico.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCorreoElectronico.Name = "txtCorreoElectronico";
             this.txtCorreoElectronico.ShortcutsEnabled = false;
-            this.txtCorreoElectronico.Size = new System.Drawing.Size(606, 26);
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(607, 26);
             this.txtCorreoElectronico.TabIndex = 30;
             // 
             // lblContactoEnCasoDeEmergencia
             // 
             this.lblContactoEnCasoDeEmergencia.AutoSize = true;
             this.lblContactoEnCasoDeEmergencia.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContactoEnCasoDeEmergencia.Location = new System.Drawing.Point(86, 705);
+            this.lblContactoEnCasoDeEmergencia.Location = new System.Drawing.Point(85, 705);
             this.lblContactoEnCasoDeEmergencia.Name = "lblContactoEnCasoDeEmergencia";
             this.lblContactoEnCasoDeEmergencia.Size = new System.Drawing.Size(289, 19);
             this.lblContactoEnCasoDeEmergencia.TabIndex = 31;
@@ -403,10 +421,11 @@ namespace TRABAJO_PROGRAMACIÓN
             // txtContactoEnCasoDeEmergencia
             // 
             this.txtContactoEnCasoDeEmergencia.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContactoEnCasoDeEmergencia.Location = new System.Drawing.Point(381, 705);
+            this.txtContactoEnCasoDeEmergencia.Location = new System.Drawing.Point(435, 705);
+            this.txtContactoEnCasoDeEmergencia.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtContactoEnCasoDeEmergencia.Name = "txtContactoEnCasoDeEmergencia";
             this.txtContactoEnCasoDeEmergencia.ShortcutsEnabled = false;
-            this.txtContactoEnCasoDeEmergencia.Size = new System.Drawing.Size(498, 26);
+            this.txtContactoEnCasoDeEmergencia.Size = new System.Drawing.Size(449, 26);
             this.txtContactoEnCasoDeEmergencia.TabIndex = 32;
             this.txtContactoEnCasoDeEmergencia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtContactoEnCasoDeEmergencia_KeyPress);
             // 
@@ -414,9 +433,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.btnGuardar.BackColor = System.Drawing.Color.LightBlue;
             this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(256, 780);
+            this.btnGuardar.Location = new System.Drawing.Point(163, 773);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(154, 42);
+            this.btnGuardar.Size = new System.Drawing.Size(155, 42);
             this.btnGuardar.TabIndex = 33;
             this.btnGuardar.Text = "GUARDAR";
             this.btnGuardar.UseVisualStyleBackColor = false;
@@ -426,9 +446,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.LightBlue;
             this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(486, 780);
+            this.btnCancelar.Location = new System.Drawing.Point(485, 780);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(154, 42);
+            this.btnCancelar.Size = new System.Drawing.Size(155, 42);
             this.btnCancelar.TabIndex = 34;
             this.btnCancelar.Text = "CANCELAR";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -437,12 +458,26 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // btnConfirmarRegistro
+            // 
+            this.btnConfirmarRegistro.BackColor = System.Drawing.Color.LightBlue;
+            this.btnConfirmarRegistro.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmarRegistro.Location = new System.Drawing.Point(133, 819);
+            this.btnConfirmarRegistro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnConfirmarRegistro.Name = "btnConfirmarRegistro";
+            this.btnConfirmarRegistro.Size = new System.Drawing.Size(220, 42);
+            this.btnConfirmarRegistro.TabIndex = 35;
+            this.btnConfirmarRegistro.Text = "CONFIRMAR REGISTRO";
+            this.btnConfirmarRegistro.UseVisualStyleBackColor = false;
+            this.btnConfirmarRegistro.Click += new System.EventHandler(this.btnConfirmarRegistro_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1216, 865);
+            this.ClientSize = new System.Drawing.Size(1216, 889);
+            this.Controls.Add(this.btnConfirmarRegistro);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.txtContactoEnCasoDeEmergencia);
@@ -479,7 +514,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.Controls.Add(this.lblPrimerNombre);
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3";
             this.Text = "Datos Personales";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -527,5 +562,6 @@ namespace TRABAJO_PROGRAMACIÓN
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Button btnConfirmarRegistro;
     }
 }

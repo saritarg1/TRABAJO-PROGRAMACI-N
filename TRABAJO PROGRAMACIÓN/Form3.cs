@@ -163,6 +163,7 @@ namespace TRABAJO_PROGRAMACIÓN
                 MessageBox.Show("Datos Ingresados Correctamente");
             }
 
+
         }
 
         private bool ValidarCampos()
@@ -274,7 +275,14 @@ namespace TRABAJO_PROGRAMACIÓN
 
         }
 
+        private void btnConfirmarRegistro_Click(object sender, EventArgs e)
+        {
+            
+        }
 
-
+        private void dtpFechaDeNacimiento_ValueChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

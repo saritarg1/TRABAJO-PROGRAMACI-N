@@ -22,8 +22,44 @@ namespace TRABAJO_PROGRAMACIÓN
             this.Hide();
             Form2 frm = new Form2();
             frm.Show();
-              
 
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+
+
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("solo se permite el ingreso de numeros", "ALERTA ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+
+            }
         }
     }
 }
